@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riddle // Terminal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/png" href="icon.png">
+</head>
+<body>
+    <!-- loading screen -->
+    <div id="loader">
+        <div class="loader-box">
+            <div class="centre-box">
+                <div class="centre top-right"></div>
+                <div class="centre bottom-left"></div>
+            </div>
+            <div class="bracket bottom-right"></div>
+            <div class="bracket top-left"></div>
+        </div>
+        <p class="loader-text">> INITIALIZING...</p>
+    </div>
+
+    <div class="terminal-container">
+        <!-- languages -->
+        <div class="lang-selector-container">
+            <label for="lang-select">[ LANG ]:</label>
+            <select id="lang-select" class="lang-dropdown">
+                <option value="en">In English</option>
+                <option value="fi">Suomeksi</option>
+                <option value="sv">På Svenska</option>
+                <option value="de">Auf Deutsch</option>
+                <option value="fa">به فارسی</option>
+            </select>
+        </div>
+
+        <!-- header -->
+        <header>
+            <h1 class="decode-title" data-value="RIDDLE">RIDDLE</h1>
+            <p class="subtitle" data-i18n="subtitle">> DEVELOPER // 6 YEARS OF CODING // 1+ YEARS BUILDING PROJECTS</p>
+        </header>
+
+        <!-- skills -->
+        <section>
+            <h2 class="decode-title" data-i18n="skillsTitle" data-value="[ SKILLS ]">[ SKILLS ]</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <span class="skill-name">PYTHON</span>
+                </div>
+                <div class="skill-card">
+                    <span class="skill-name">JAVASCRIPT</span>
+                </div>
+                <div class="skill-card">
+                    <span class="skill-name">HTML5</span>
+                </div>
+                <div class="skill-card">
+                    <span class="skill-name">CSS3</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- about and projects -->
+        <div class="content-row">
+            <!-- about -->
+            <section class="about-section">
+                <h2 class="decode-title" data-i18n="aboutTitle" data-value="[ ABOUT ]">[ ABOUT ]</h2>
+                <div class="about-card">
+                    <p data-i18n="aboutP1">Programming is where logic meets creativity, creating a space in which functionable code determines the unseen absolute base for human interaction. Each line of code is a chance to turn digital frameworks into efficient and accessible outcomes, or a undependable programs unintentionally aimed towards abyss. By syncing functionality with design, it becomes a connection between layers of systems and the users who depend on them.</p>
+                    <p data-i18n="aboutP2">Hi, I'm Riddle. I aim for programs that assist users in a comfortable daily basis. My priority is functionality before fashion.</p>
+                </div>
+            </section>
+
+            <!-- projects -->
+            <section class="projects-section">
+                <h2 class="decode-title" data-i18n="projectsTitle" data-value="[ PROJECTS ]">[ PROJECTS ]</h2>
+                <div class="projects-list">
+                    
+                    <div class="project-item">
+                        <div class="project-header">
+                            <h3>RADIAL COORDINATE CALCULATOR (RCC)</h3>
+                            <a href="https://riddlewaffles.github.io/radial-coordinate-calculator/" target="_blank" class="project-link">[LAUNCH]</a>
+                        </div>
+                        <p data-i18n="rccDesc">A lightweight tool designed to compute 2D Cartesian coordinates for points positioned evenly along a circle.</p>
+                    </div>
+
+                    <div class="project-item">
+                        <div class="project-header">
+                            <h3>LINEAR DUEL</h3>
+                            <a href="https://riddlewaffles.github.io/Linear-Duel/" target="_blank" class="project-link">[LAUNCH]</a>
+                        </div>
+                        <p data-i18n="linearDesc">2 player game where you have to input mathematical functions to destroy your opponent.</p>
+                    </div>
+
+                    <div class="project-item">
+                        <div class="project-header">
+                            <h3>SCRAMBLE CAM</h3>
+                            <a href="https://riddlewaffles.github.io/Scramble-Cam/" target="_blank" class="project-link">[LAUNCH]</a>
+                        </div>
+                        <p data-i18n="scrambleDesc">Low level face detection program that hides your face when detected.</p>
+                    </div>
+
+                </div>
+            </section>
+        </div>
+
+        <!-- connections -->
+        <section>
+            <h2 class="decode-title" data-i18n="connectionsTitle" data-value="[ CONNECTIONS ]">[ CONNECTIONS ]</h2>
+            <div class="connections-grid">
+                <a href="https://github.com/riddlewaffles" target="_blank" class="connection-card">
+                    <i class="fab fa-github"></i>
+                    <span>GITHUB</span>
+                </a>
+                <a href="https://www.instagram.com/riddlewaffles/" target="_blank" class="connection-card">
+                    <i class="fab fa-instagram"></i>
+                    <span>INSTAGRAM</span>
+                </a>
+                <a href="https://discord.gg/nPrGE3eW9" target="_blank" class="connection-card">
+                    <i class="fab fa-discord"></i>
+                    <span>DISCORD</span>
+                </a>
+                <a href="mailto:EIgeorgeriddle@gmail.com" class="connection-card">
+                    <i class="fas fa-envelope"></i>
+                    <span>GMAIL</span>
+                </a>
+            </div>
+        </section>
+
+        <!-- footer -->
+        <footer>
+            <p>> SYSTEM.EXIT(0) _</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
