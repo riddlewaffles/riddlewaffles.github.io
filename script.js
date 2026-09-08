@@ -23,7 +23,7 @@ const translations = {
         projectsTitle: "[ PROJEKTIT ]",
         rccDesc: "Kevyt työkalu 2D-kartesisten koordinaattien laskemiseen ympyrälle tasaisesti sijoitetuille pisteille.",
         linearDesc: "Kaksinpeli, jossa syötät matemaattisia funktioita tuhotaksesi vastustajasi.",
-        scrambleDesc: "Kokeellinen kasvojentunnistusohjelma, joka piilottaa kasvosi, kun ne havaitaan.",
+        scrambleDesc: "Kokeellinen kasvontunnistusohjelma, joka piilottaa kasvot, kun ne havaitaan.",
         connectionsTitle: "[ YHTEYDET ]"
     },
     sv: {
@@ -35,7 +35,7 @@ const translations = {
         projectsTitle: "[ PROJEKT ]",
         rccDesc: "Ett smidigt verktyg för att beräkna 2D Kartesiska koordinater för punkter jämnt placerade längs en cirkel.",
         linearDesc: "Ett tvåspelarspel där du anger matematiska funktioner för att förstöra din motståndare.",
-        scrambleDesc: "Experimentellt ansiktsigenkänningsprogram som döljer ditt ansikte när det upptäcks.",
+        scrambleDesc: "Ett experimentellt ansiktsdetekteringsprogram som döljer ditt ansikte när det upptäcks.",
         connectionsTitle: "[ KONTAKTER ]"
     },
     de: {
@@ -47,7 +47,7 @@ const translations = {
         projectsTitle: "[ PROJEKTE ]",
         rccDesc: "Ein leichtes Werkzeug zur Berechnung von 2D-kartesischen Koordinaten für Punkte auf einem Kreis.",
         linearDesc: "Ein 2-Spieler-Spiel, bei dem du mathematische Funktionen eingeben musst, um deinen Gegner zu zerstören.",
-        scrambleDesc: "Experimentelles Gesichtserkennungsprogramm, das dein Gesicht verbirgt, wenn es erkannt wird.",
+        scrambleDesc: "Ein experimentelles Gesichtserkennungsprogramm, das dein Gesicht verbirgt, wenn es erkannt wird.",
         connectionsTitle: "[ VERBINDUNGEN ]"
     },
     fa: {
@@ -59,7 +59,7 @@ const translations = {
         projectsTitle: "[ پروژه‌ها ]",
         rccDesc: "ابزاری سبک که برای محاسبه مختصات دکارتی دوبعدی برای نقاطی که به طور مساوی در امتداد یک دایره قرار گرفته‌اند، طراحی شده است.",
         linearDesc: "بازی دو نفره که در آن باید با وارد کردن توابع ریاضی، حریف خود را نابود کنید.",
-        scrambleDesc: "برنامه تشخیص چهره آزمایشی که هنگام شناسایی، چهره شما را پنهان می‌کند.",
+        scrambleDesc: "برنامه تشخیص چهره تجربی که هنگام شناسایی، چهره شما را پنهان می‌کند.",
         connectionsTitle: "[ اتصالات ]"
     }
 };
