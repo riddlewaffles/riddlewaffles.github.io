@@ -50,18 +50,6 @@ const translations = {
         scrambleDesc: "Ein experimentelles Gesichtserkennungsprogramm, das dein Gesicht verbirgt, wenn es erkannt wird.",
         connectionsTitle: "[ VERBINDUNGEN ]"
     },
-    fa: {
-        subtitle: "> توسعه‌دهنده // ۶ سال برنامه‌نویسی // +۱ سال ساخت پروژه",
-        skillsTitle: "[ مهارت‌ها ]",
-        aboutTitle: "[ درباره من ]",
-        aboutP1: "برنامه‌نویسی جایی است که منطق با خلاقیت روبرو می‌شود؛ فضایی که در آن کد کاربردی، پایه ناپیدا و مطلق تعاملات انسانی را شکل می‌دهد. هر خط کد فرصی برای تبدیل چارچوب‌های دیجیتال به خروجی‌های کارآمد و قابل دسترس است، یا برنامه‌ای غیرقابل اعتماد که ناخواسته به سمت نابودی می‌رود. با هماهنگ‌سازی عملکرد و طراحی، کد به پل ارتباطی بین لایه‌های سیستم و کاربرانی تبدیل می‌شود که به آن‌ها متکی هستند.",
-        aboutP2: "سلام، من Riddle هستم. هدف من ساخت برنامه‌هایی است که به کاربران در زندگی روزمره کمک کنند. اولویت من عملکرد است، نه ظاهر.",
-        projectsTitle: "[ پروژه‌ها ]",
-        rccDesc: "ابزاری سبک برای محاسبه مختصات دوبعدی دکارتی برای نقاطی که به طور مساوی روی یک دایره قرار گرفته‌اند.",
-        linearDesc: "بازی دو نفره که در آن باید با وارد کردن توابع ریاضی حریف خود را نابود کنید.",
-        scrambleDesc: "برنامه آزمایشی تشخیص چهره که با تشخیص صورت، آن را مخفی می‌کند.",
-        connectionsTitle: "[ ارتباطات ]"
-    },
     ru: {
         subtitle: "> РАЗРАБОТЧИК // 6 ЛЕТ В ПРОГРАММИРОВАНИИ // 1+ ГОД СОЗДАНИЯ ПРОЕКТОВ",
         skillsTitle: "[ НАВЫКИ ]",
@@ -73,6 +61,30 @@ const translations = {
         linearDesc: "Игра для 2 игроков, в которой нужно вводить математические функции, чтобы уничтожить соперника.",
         scrambleDesc: "Экспериментальная программа распознавания лиц, которая скрывает ваше лицо при обнаружении.",
         connectionsTitle: "[ контакты ]"
+    },
+    it: {
+        subtitle: "> SVILUPPATORE // 6 ANNI DI PROGRAMMAZIONE // 1+ ANNI A CREARE PROGETTI",
+        skillsTitle: "[ COMPETENZE ]",
+        aboutTitle: "[ INFORMAZIONI ]",
+        aboutP1: "La programmazione è il punto in cui la logica incontra la creatività, creando uno spazio in cui il codice funzionale determina la base invisibile dell'interazione umana. Ogni riga di codice è un'opportunità per trasformare i framework digitali in risultati efficienti e accessibili, o in programmi inaffidabili involontariamente destinati al fallimento. Sincronizzando funzionalità e design, si crea una connessione tra i livelli di sistema e gli utenti che vi affidano.",
+        aboutP2: "Ciao, sono Riddle. Il mio obiettivo è creare programmi che aiutino gli utenti nella vita di tutti i giorni. La mia priorità è la funzionalità prima dell'estetica.",
+        projectsTitle: "[ PROGETTI ]",
+        rccDesc: "Uno strumento leggero progettato per calcolare le coordinate cartesiane 2D per punti posizionati uniformemente lungo una circonferenza.",
+        linearDesc: "Gioco per 2 giocatori in cui devi inserire funzioni matematiche per distruggere il tuo avversario.",
+        scrambleDesc: "Programma sperimentale di riconoscimento facciale che nasconde il tuo viso quando viene rilevato.",
+        connectionsTitle: "[ CONTATTI ]"
+    },
+    fa: {
+        subtitle: "> توسعه‌دهنده // ۶ سال برنامه‌نویسی // +۱ سال ساخت پروژه",
+        skillsTitle: "[ مهارت‌ها ]",
+        aboutTitle: "[ درباره من ]",
+        aboutP1: "برنامه‌نویسی جایی است که منطق با خلاقیت تلاقی می‌کند؛ ایجاد فضایی که در آن کد کاربردی، پایه مطلق و پنهان را برای تعامل انسان تعیین می‌کند. هر خط کد فرصی برای تبدیل چارچوب‌های دیجیتال به خروجی‌های کارآمد و دسترس‌پذیر است، یا برنامه‌ای غیرقابل اعتماد که ناخواسته به سمت نابودی می‌رود. با همگام‌سازی کاربرد و طراحی، ارتباطی میان لایه‌های سیستم و کاربرانی که به آن‌ها متکی هستند شکل می‌گیرد.",
+        aboutP2: "سلام، من Riddle هستم. هدف من ساخت برنامه‌هایی است که به کاربران در زندگی روزمره کمک کنند. اولویت من کارایی پیش از ظاهر است.",
+        projectsTitle: "[ پروژه‌ها ]",
+        rccDesc: "ابزاری سبک برای محاسبه مختصات دکارتی دوبعدی برای نقاطی که به طور مساوی روی یک دایره قرار گرفته‌اند.",
+        linearDesc: "بازی دو نفره که در آن باید توابع ریاضی را برای نابود کردن حریف خود وارد کنید.",
+        scrambleDesc: "برنامه آزمایشی تشخیص چهره که هنگام تشخیص، چهره شما را پنهان می‌کند.",
+        connectionsTitle: "[ ارتباطات ]"
     }
 };
 
@@ -141,4 +153,22 @@ window.addEventListener("load", () => {
             animateSkillBars();
         }, 300);
     }, 1200);
+});
+
+// Jolly Mode
+document.addEventListener("DOMContentLoaded", () => {
+    const systemExitBtn = document.getElementById("system-exit");
+    const modeIndicator = document.getElementById("mode-indicator");
+
+    if (systemExitBtn && modeIndicator) {
+        systemExitBtn.addEventListener("click", () => {
+            document.body.classList.toggle("jolly-mode");
+
+            if (document.body.classList.contains("jolly-mode")) {
+                modeIndicator.textContent = "[ Jolly Mode ]";
+            } else {
+                modeIndicator.textContent = "[ Terminal Mode ]";
+            }
+        });
+    }
 });
