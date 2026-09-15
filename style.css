@@ -298,12 +298,12 @@ section h2 {
 
 /* Jolly Mode */
 @keyframes rainbow-text {
-    0% { color: #ff0000; }
-    20% { color: #ff8800; }
-    40% { color: #ffff00; }
-    60% { color: #00ff00; }
-    80% { color: #00ffff; }
-    100% { color: #ff00ff; }
+    0% { color: #ff0000; border-color: #ff0000; }
+    20% { color: #ff8800; border-color: #ff8800; }
+    40% { color: #ffff00; border-color: #ffff00; }
+    60% { color: #00ff00; border-color: #00ff00; }
+    80% { color: #00ffff; border-color: #00ffff; }
+    100% { color: #ff00ff; border-color: #ff00ff; }
 }
 
 .footer-container {
