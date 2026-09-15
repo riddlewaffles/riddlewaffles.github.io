@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: monospace;
     font-size: 12px;
 }
 
@@ -11,6 +10,7 @@ html, body {
     min-height: 100vh;
     background-color: #000000;
     color: #ffffff;
+    font-family: monospace;
     display: flex;
     justify-content: center;
 }
@@ -108,9 +108,6 @@ section h2 {
     flex-direction: column;
     gap: 12px;
     height: calc(100% - 38px);
-}
-
-.about-card p {
     color: #aaaaaa;
     line-height: 1.6;
 }
@@ -179,17 +176,6 @@ section h2 {
     border-color: #ffffff;
     background-color: #ffffff;
     color: #000000;
-}
-
-/* footer */
-footer p {
-    color: #555555;
-}
-
-@media (max-width: 768px) {
-    .content-row {
-        grid-template-columns: 1fr;
-    }
 }
 
 /* loading screen */
@@ -308,4 +294,38 @@ footer p {
     50% {
         transform: translate(30px, 30px);
     }
+}
+
+/* Jolly Mode */
+@keyframes rainbow-text {
+    0% { color: #ff0000; }
+    20% { color: #ff8800; }
+    40% { color: #ffff00; }
+    60% { color: #00ff00; }
+    80% { color: #00ffff; }
+    100% { color: #ff00ff; }
+}
+
+.footer-container {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    color: #555555;
+}
+
+.system-exit {
+    cursor: pointer;
+    user-select: none;
+}
+
+body.jolly-mode {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('rainbow_and_sunshine.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Comic Neue', 'Comic Sans MS', cursive, sans-serif !important;
+}
+
+body.jolly-mode, body.jolly-mode h1, body.jolly-mode h2, body.jolly-mode p, body.jolly-mode a, body.jolly-mode span {
+    animation: rainbow-text 3s infinite linear;
 }
